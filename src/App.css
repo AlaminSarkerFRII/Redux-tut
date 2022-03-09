@@ -36,3 +36,48 @@
     transform: rotate(360deg);
   }
 }
+
+/* my style  */
+
+
+.items{
+  float:left;
+  display:inline-block;
+  width:120px;
+  height:70px;
+  padding:20px;
+
+}
+
+
+.img-wrapper img{
+  width:100px;
+  margin-top:-20px;
+}
+
+.cart-wrapper{
+  height: 100px;
+  width:500px;
+  border:2px solid black;
+  margin-left:10%;
+}
+
+/* button */
+
+.btn-wrapper button{
+  background-color:coral;
+  color:aliceblue;
+  padding:10px;
+  border-radius:10px;
+  border:0px;
+  box-shadow:rgb(22, 21, 21) 0px 2px 5px;
+}
+
+/* cart icons */
+
+.add-to-cart img{
+  width:80px;
+  position:absolute;
+  top:1%;
+  right:1%;
+}
